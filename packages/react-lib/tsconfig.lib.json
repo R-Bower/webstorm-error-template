@@ -8,6 +8,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "outDir": "./dist",
+    "baseUrl": "./",
     "rootDir": "./src",
 
     /* Bundler mode */

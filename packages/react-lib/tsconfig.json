@@ -1,5 +1,11 @@
 {
-  "files": [],
+  "files": ["./src/index.ts"],
+  "compilerOptions": {
+    // comment out the next line to fix the issue
+    "composite": true,
+    "baseUrl": "./",
+    "outDir": "./dist"
+  },
   "references": [
     { "path": "./tsconfig.lib.json" },
     { "path": "./tsconfig.node.json" }
