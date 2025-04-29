@@ -1,7 +1,7 @@
 import {ReactElement} from "react"
 
 export interface ExampleProps {
-  value: string
+  value: number
 }
 
 export function Example({value}: ExampleProps): ReactElement {
